@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.button {
+  padding: 10px 20px;
+  background: steelblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background: darkblue;
+}
+.gallery img {
+  width: 100px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.tab {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.active {
+  display: block;
+}
+.animated {
+  transition: all 0.3s ease-in-out;
+}
+input:valid {
+  border: 2px solid green;
+}
+input:invalid {
+  border: 2px solid red;
+}
